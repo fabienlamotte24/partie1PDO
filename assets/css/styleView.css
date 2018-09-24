@@ -1,0 +1,47 @@
+
+td, tr,th{
+    border-collapse:collapse;
+    border:1px solid black;
+}
+table{
+    text-align:center;
+    border-radius:30px;
+    margin: 0 0 0 30px;
+    width:80%;
+}
+.firstTest{
+    background-color:white;
+    border-radius:30px;
+    margin: 15px 0 15px 0;
+    padding:20px;
+    font-size:2em;
+}
+li{
+    list-style-type: none;
+}
+.listType{
+    background-color:#adadad;
+}
+header{
+    text-align:center;
+    font-size:2em;
+}
+.secondTest{
+    background-color:white;
+    border:7px solid black;
+    border-radius:15px;
+    font-size:5em;
+    padding:0 0 0 0;
+    margin-bottom:0;
+}
+.listMLetter{
+    background-color:grey;
+    color:white;
+    padding:15px;
+    margin:5px;
+}
+.listPresentClients{
+    background-color:grey;
+    margin-top:20px;
+    color:white;
+}

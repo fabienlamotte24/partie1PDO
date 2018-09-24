@@ -1,0 +1,60 @@
+header{
+    margin-top:100px;
+}
+h1{
+    padding-top:15px;
+}
+#littleMask{
+    width:50px;
+    height:50px;
+    margin:0;
+}
+#sidebar-wrapper {
+  top: 62px;
+  left: -200px;
+  width: 250px;
+  background-color: #0082ac;
+  color: white;
+  position: fixed;
+  height: 100%;
+  z-index: 1;
+  font-size:16px;
+}
+.sidebar-nav {
+  position: absolute;
+  top: 0;
+  margin: 0;
+  padding: 0;
+  width: 300px;
+  list-style: none;
+  text-align:center;
+  padding-right:70px;
+}
+.sidebar-nav li {
+  text-indent: 20px;
+  line-height: 50px;
+  text-align:center;
+}
+.sidebar-nav li a {
+  color: white;
+  display: block;
+  text-decoration: none;
+}
+.sidebar-nav li a:hover {
+  background: rgba(255,255,255,0.25);
+  color: white;
+  text-decoration: none;
+}
+.sidebar-nav li a:active, .sidebar-nav li a:focus {
+  text-decoration: none;
+}
+#sidebar-wrapper.sidebar-toggle {
+  transition: all 0.3s ease-out;
+  margin-left: -200px;
+}
+@media (min-width: 768px) {
+  #sidebar-wrapper.sidebar-toggle {
+    transition: 0s;
+    left: 200px;
+  }
+}
